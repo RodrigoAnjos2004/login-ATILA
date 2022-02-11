@@ -22,6 +22,7 @@ Tecnologias usadas (até agora):
  1. hmtl
  2. css
  3. bootstrap
+ 4. JS
 ~~~
 
 Projeto será atualizado em breve , com a adição de novas funcionalidades e tecnologias.
