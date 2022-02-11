@@ -32,7 +32,7 @@ Projeto será atualizado em breve , com a adição de novas funcionalidades e te
 ~~~
 * O que foi feito, e o que temos a fazer *
 
-- [loading....] Front-end
+- [X] Front-end
 - [ ] Back-end
 - [ ] Banco de dados
 - [ ] Infra
