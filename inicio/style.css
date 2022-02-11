@@ -1,0 +1,125 @@
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+h2 {
+  color:rgba(255,255,255,.8);
+  margin-left:12px;
+}
+
+.login{
+  transition: transform 1s linear;
+}
+.login :hover{
+  transform: scale(1.2);
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+body {
+  background: no-repeat;
+  background-image: linear-gradient(#000,#333,#5a5a5a,#999999);
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+form {
+  position:relative;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  border-radius:45px;
+  background-image:linear-gradient(#767676b1,#56565684,#5252527c,#d0d0d0e5);
+  display: flex;
+  color:#000000;
+  font-size:18px;
+}
+
+input:focus {
+  outline-color: rgba(255, 255, 255, 0);
+  background: rgba(0, 0, 0, 0.95);
+  color: #ffffff;
+}
+
+
+button {
+  padding: 16px;
+  border-radius:35px;
+  border:0px;
+  background-image:linear-gradient(#414141bb,#56565684,#7676767c,#7c7c7ce5);
+  display: block;
+  margin: 35px;
+  width: 250px;  
+  color:#000000;
+  font-size:18px;
+  height: 54px;
+  transition: transform 1s linear;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.385);
+}
+
+button:hover{
+  transform: scale(1.1);
+  background-image:linear-gradient(#000000b1,#1c1c1c84,#1616167c,#7c7c7ce5);
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  margin-bottom: 10px;
+  height: 70px;
+  padding: 20px 0 20px;
+}
+.input-icons input{
+  padding: 20px 60px 20px 60px;
+}
+.icon {
+  padding: 17px;
+  color: black;
+  min-width: 60px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.445)
+}
+
+input:focus::-webkit-input-placeholder {
+  color: #636363;
+}
+/* 
+.btn {
+  padding: 16px;
+  border-radius:35px;
+  border:0px;
+  background-image:linear-gradient(#000000b1,#56565684,#0000007c,#000000e5);
+  display: block;
+  margin: 35px;
+  width: 250px;  
+  color:#ffffff;
+  font-size:18px;
+  height: 54px;
+} */

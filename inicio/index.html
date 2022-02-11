@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="./style.css">
+  <script src="jquery.min.js"></script>
+    <script src="jquery.mask.min.js"></script>
+    <script src="js.js"></script>
+
+
+
+</head>
+
+<body>
+
+  <form action="">
+
+    <h2 class=""> <a href="../index.html"> <span class="login"><i class="fa fa-sign-in"></i></span>Sair</a></h2>
+
+    <div class="input-icons">
+      <i class="fa fa-user icon"></i>
+      <input class="input-field" type="text" required placeholder="Usuario" >
+    </div>
+
+    <div class="input-icons">
+      <i class="fa fa-key icon"></i>
+      <input class="input-field" type="password" required placeholder="Senha" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[ !@#$%^&*_=+-]).{8,15}$" title="A senha deve conter entre 8 a 15 caracteres, deve conter pelo menos uma letra maiúscula, uma letra minúscula, um número e um símbolo." >
+    </div>
+
+    <div class="input-icons">
+      <i class="fa fa-envelope icon"></i>
+      <input class="input-field" type="email" required placeholder="Email" >
+    </div>
+
+    <div class="input-icons">
+      <i class="fa fa-phone icon"></i>
+      <input class="phone_with_ddd" class="input-field" type="tel" required placeholder="Telefone">
+    </div>
+
+    <button> Criar conta</button>
+
+  </form>
+
+</body>
+
+</html>
